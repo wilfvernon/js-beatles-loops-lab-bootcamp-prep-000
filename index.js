@@ -30,7 +30,7 @@ function johnLennonFacts(fact){
        if (clone.length === 0) {
          return arr2
        } else {
-     arr.push(clone[0] + '!!!');
+     arr2.push(clone[0] + '!!!');
      clone.shift();
      console.log(clone)
   }
