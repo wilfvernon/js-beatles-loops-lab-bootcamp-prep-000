@@ -42,7 +42,8 @@ function iLoveTheBeatles(num){
   var empty = []
   do {
     empty.push('I love the Beatles!')
-  } while (num < 15)
+  } while (num < 15);
+  
   }
 }
 
