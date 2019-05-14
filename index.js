@@ -24,8 +24,8 @@ const facts = [ "He was the last Beatle to learn to drive",
   "He hated the sound of his own voice"];
   
 var arr2 = []
-function johnLennonFacts(fact){
-  var clone = fact.slice(0)
+function johnLennonFacts(facts){
+  var clone = facts.slice(0)
       while (clone.length > -1)
        if (clone.length === 0) {
          return arr2
