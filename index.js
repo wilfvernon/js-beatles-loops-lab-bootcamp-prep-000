@@ -29,10 +29,12 @@ function johnLennonFacts(facts){
       while (clone.length > -1)
        if (clone.length === 0) {
          console.log(arr2)
+         console.log(clone)
          return arr2
        } else {
      arr2.push(clone[0] + "!!!");
-     clone.shift();
+     clone.shift()
+     console.log(clone);
   }
 }
 
