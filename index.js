@@ -33,3 +33,4 @@ function johnLennonFacts(fact){
 }
 
 johnLennonFacts(facts)
+console.log(arr)
