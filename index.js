@@ -29,6 +29,8 @@ function johnLennonFacts(fact){
       while (clone.length > -1)
        if (clone.length === 0) {
          return arr2
+       } else if (clone.length < 1){
+       return arr 2
        } else {
      arr2.push(clone[0] + '!!!');
      clone.shift();
