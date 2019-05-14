@@ -7,8 +7,8 @@ var i = 0
 function theBeatlesPlay(musicians, instruments){
   for (i = 0; i < 4; i++){
       if (n === 4){
-      return arr
       console.log(arr)
+      return arr
     } else {
     arr.push(musicians[n] + " plays " + instruments[n])
     n++
