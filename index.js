@@ -41,7 +41,8 @@ johnLennonFacts(fact)
 function iLoveTheBeatles(num){
   var empty = []
   do {
-    empty.push('I love the Beatles!')
+    empty.push('I love the Beatles!');
+    num++;
   } while (num < 15);
   console.log(empty)
 }
