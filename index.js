@@ -27,7 +27,7 @@ function johnLennonFacts(fact){
          return arr
        } else {
      arr.push(clone[0]);
-     clone.push();
+     clone.shift();
      console.log(clone)
   }
 }
