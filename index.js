@@ -8,12 +8,14 @@ function theBeatlesPlay(musicians, instruments){
   for (i = 0; i < 4; i++){
       if (n === 4){
       return arr
+      console.log(arr)
     } else {
     arr.push(musicians[n] + " plays " + instruments[n])
     n++
     }
   }
 }
+
 theBeatlesPlay(beatles, instruments)
 
 const facts = [ "He was the last Beatle to learn to drive",
