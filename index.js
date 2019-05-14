@@ -23,18 +23,16 @@ const fact = [ "He was the last Beatle to learn to drive",
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice"];
   
-var arr2 = []
 function johnLennonFacts(facts){
   var clone = facts.slice(0)
+  facts = []
       while (clone.length > -1)
        if (clone.length === 0) {
-         console.log(arr2)
-         console.log(clone)
-         return arr2
+         return facts
+         console.log(facts)
        } else {
-     arr2.push(clone[0] + "!!!");
-     clone.shift()
-     console.log(clone);
+     facts.push(clone[0] + "!!!");
+     clone.shift();
   }
 }
 
