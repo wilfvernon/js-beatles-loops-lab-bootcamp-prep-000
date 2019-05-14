@@ -28,8 +28,8 @@ function johnLennonFacts(facts){
   facts = []
       while (clone.length > -1)
        if (clone.length === 0) {
-         return facts
          console.log(facts)
+         return facts
        } else {
      facts.push(clone[0] + "!!!");
      clone.shift();
