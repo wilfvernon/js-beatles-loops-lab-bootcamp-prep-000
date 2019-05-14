@@ -21,13 +21,15 @@ theBeatlesPlay(beatles, instruments)
 const fact = [ "He was the last Beatle to learn to drive",
   "He was never a vegetarian",
   "He was a choir boy and boy scout",
-  "He hated the sound of his own voice"];
+  "He hated the sound of his own voice",
+  "extra fact"];
   
 var arr2 = []
 function johnLennonFacts(facts){
   var clone = facts.slice(0)
       while (clone.length > -1)
        if (clone.length === 0) {
+         console.log(arr2)
          return arr2
        } else if (clone.length < 1){
        return arr2;
@@ -39,4 +41,3 @@ function johnLennonFacts(facts){
 
 
 johnLennonFacts(fact)
-return arr2
