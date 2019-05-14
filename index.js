@@ -36,5 +36,6 @@ function johnLennonFacts(facts){
      clone.shift();
   }
 }
+return arr2
 
 johnLennonFacts(fact)
