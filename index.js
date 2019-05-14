@@ -37,4 +37,4 @@ function johnLennonFacts(fact){
   }
 }
 
-
+johnLennonFacts(facts)
