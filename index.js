@@ -45,6 +45,7 @@ function iLoveTheBeatles(num){
     ++num;
   } while (num < 15);
   console.log(empty)
+  return empty
 }
 
 iLoveTheBeatles(7)
